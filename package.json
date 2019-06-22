@@ -9,7 +9,18 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "jquery": "^3.4.1",
+    "vue": "^2.6.10",
+    "axios": "^0.18.0",
+    "reconnecting-websocket": "^4.1.10",
+    "vue-authenticate": "^1.3.4",
+    "vue-moment": "^4.0.0",
+    "vue-moments-ago": "^0.2.0",
+    "vue-peity": "^0.5.0",
+    "vue-router": "^3.0.1",
+    "vue-sweetalert2": "^1.6.4",
+    "vue-toasted": "^1.1.25",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",

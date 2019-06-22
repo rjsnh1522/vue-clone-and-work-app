@@ -1,28 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import Vue from 'vue'
+    // import http from '@/utils/http-common'
+    // import router from '@/router'
+    import VueSweetalert2 from 'vue-sweetalert2';
+    import Toasted from 'vue-toasted';
+    // import { mapGetters } from "vuex";
+    // import { watch } from 'fs';
+
+    Vue.use(Toasted)
+    Vue.use(VueSweetalert2);
+    Vue.use(require('vue-moment'));
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
