@@ -1,6 +1,14 @@
-# client_fee
+# Vue2 clone and start working
+
+## Router, LoginPage, Dashboard, Store, AuthStore, AuthApi configured
+
 
 ## Project setup
+```
+    clone the app first
+```
+
+
 ```
 npm install
 ```
